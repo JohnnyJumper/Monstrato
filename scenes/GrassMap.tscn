@@ -4834,6 +4834,7 @@ tile_set = SubResource("TileSet_dpfxg")
 position = Vector2(957, 837)
 limit_left = 0
 limit_top = 0
+limit_smoothed = true
 script = ExtResource("4_krv1x")
 
 [node name="LeftLine" type="Node" parent="."]
