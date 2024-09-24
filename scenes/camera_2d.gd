@@ -1,34 +1,47 @@
 extends Camera2D
 
-var ZOOM_MIN: Vector2
-var ZOOM_MAX: Vector2
-var ZOOM_TARGET: Vector2
-var ZOOM_SPEED: float
+@export var ZOOM_SPEED: float = 10
+@export var dragSpeed: float = 200.0
+
+var zoom_target: Vector2
+var zoom_factor: float
+var zoom_min: Vector2 = Vector2(0.5, 0.5)
+var zoom_max: Vector2 = Vector2(5.0, 5.0)
+
+var dragStartMousePos: Vector2 = Vector2.ZERO
+var dragStartCameraPos: Vector2 = Vector2.ZERO
+var isDragging: bool = false
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	ZOOM_MIN = Vector2(0.5, 0.5)
-	ZOOM_MAX = Vector2(5.0, 5.0)
-	ZOOM_SPEED = 10
-	ZOOM_TARGET = zoom
+	zoom_target = zoom
 	pass # Replace with function body.
-
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	zoom_factor = (1 / zoom.x)
 	handleZoom(delta)
+	handleMovement(delta)
 
 
 
-func handleMovement() -> void:
-	var mousePos = get_global_mouse_position()
-	#if Input.is_action_just_pressed("MouseMiddleClick"):
-				
-
+func handleMovement(delta) -> void:
+	if !isDragging and Input.is_action_just_pressed("MouseMiddleClick"):
+		dragStartMousePos = get_viewport().get_mouse_position()
+		dragStartCameraPos = position
+		isDragging = true
+	
+	if isDragging and Input.is_action_just_released("MouseMiddleClick"):
+		isDragging = false
+	
+	if isDragging:
+		var moveVector = get_viewport().get_mouse_position() - dragStartMousePos
+		position = dragStartCameraPos - moveVector * dragSpeed * zoom_factor * delta 
 
 func handleZoom(delta: float) -> void: 
 	if Input.is_action_just_pressed("ZoomIn"):
-		ZOOM_TARGET *= 1.1
+		zoom_target *= 1.1
 	if Input.is_action_just_pressed("ZoomOut"):
-		ZOOM_TARGET *= 0.9
-	ZOOM_TARGET = clamp(ZOOM_TARGET, ZOOM_MIN, ZOOM_MAX)
-	zoom = zoom.lerp(ZOOM_TARGET, ZOOM_SPEED * delta)
+		zoom_target *= 0.9
+	zoom_target = clamp(zoom_target, zoom_min, zoom_max)
+	zoom = zoom.lerp(zoom_target, ZOOM_SPEED * delta)
