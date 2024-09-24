@@ -26,12 +26,12 @@ func _process(delta: float) -> void:
 
 
 func handleMovement(delta) -> void:
-	if !isDragging and Input.is_action_just_pressed("MouseMiddleClick"):
+	if !isDragging and Input.is_action_just_pressed("cameraPan"):
 		dragStartMousePos = get_viewport().get_mouse_position()
 		dragStartCameraPos = position
 		isDragging = true
 	
-	if isDragging and Input.is_action_just_released("MouseMiddleClick"):
+	if isDragging and Input.is_action_just_released("cameraPan"):
 		isDragging = false
 	
 	if isDragging:
