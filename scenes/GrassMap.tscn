@@ -1,10 +1,10 @@
 [gd_scene load_steps=16 format=4 uid="uid://c8tu3f4xdkap4"]
 
 [ext_resource type="Texture2D" uid="uid://dgq73tq15jqwn" path="res://assets/BaseSet.png" id="1_cu5vd"]
-[ext_resource type="Script" path="res://scenes/center_line.gd" id="2_jxyg4"]
+[ext_resource type="Script" path="res://scripts/line/center_line.gd" id="2_jxyg4"]
 [ext_resource type="Texture2D" uid="uid://byfta41xg2cef" path="res://assets/build_icon.png" id="4_gcjo5"]
-[ext_resource type="Script" path="res://scenes/camera_2d.gd" id="4_krv1x"]
-[ext_resource type="Script" path="res://scenes/building_area.gd" id="4_nwqr5"]
+[ext_resource type="Script" path="res://scripts/buildings/building_area.gd" id="4_nwqr5"]
+[ext_resource type="Script" path="res://scripts/camera/camera_2d.gd" id="5_cgrrv"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_24vkg"]
 texture = ExtResource("1_cu5vd")
@@ -2507,7 +2507,7 @@ position = Vector2(957, 837)
 limit_left = 0
 limit_top = 0
 limit_smoothed = true
-script = ExtResource("4_krv1x")
+script = ExtResource("5_cgrrv")
 
 [node name="LeftLine" type="Node" parent="."]
 

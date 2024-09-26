@@ -1,0 +1,70 @@
+[gd_scene load_steps=7 format=3 uid="uid://cr0lc35e5xxe5"]
+
+[ext_resource type="Script" path="res://scripts/buildings/mining_area.gd" id="1_pt7hh"]
+[ext_resource type="Texture2D" uid="uid://byfta41xg2cef" path="res://assets/build_icon.png" id="2_e5q30"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dmn3x"]
+bg_color = Color(0.772549, 0.556863, 0.172549, 0.423529)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.403922, 0.901961, 0.780392, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_oxyik"]
+color = Color(0, 0, 0, 0)
+grow_begin = 0.0
+grow_end = 0.0
+thickness = 0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vk8pr"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5jshg"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[node name="MiningArea" type="Node2D"]
+script = ExtResource("1_pt7hh")
+
+[node name="buildingButton" type="Panel" parent="."]
+offset_left = -38.0
+offset_top = -38.0
+offset_right = 38.0
+offset_bottom = 38.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_dmn3x")
+
+[node name="Button" type="Button" parent="buildingButton"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/icon_pressed_color = Color(0, 0, 0, 0)
+theme_override_styles/hover = SubResource("StyleBoxLine_oxyik")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vk8pr")
+theme_override_styles/normal = SubResource("StyleBoxFlat_5jshg")
+toggle_mode = true
+
+[node name="BuildIcon" type="TextureRect" parent="buildingButton/Button"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -27.0
+offset_top = -26.5
+offset_right = 28.0
+offset_bottom = 27.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_e5q30")
+expand_mode = 1
+
+[connection signal="toggled" from="buildingButton/Button" to="." method="_on_button_toggled"]
