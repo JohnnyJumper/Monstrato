@@ -1,10 +1,12 @@
-[gd_scene load_steps=16 format=4 uid="uid://c8tu3f4xdkap4"]
+[gd_scene load_steps=18 format=4 uid="uid://c8tu3f4xdkap4"]
 
 [ext_resource type="Texture2D" uid="uid://dgq73tq15jqwn" path="res://assets/BaseSet.png" id="1_cu5vd"]
+[ext_resource type="PackedScene" uid="uid://cr0lc35e5xxe5" path="res://scenes/buildings/mining_area.tscn" id="1_xqmdb"]
 [ext_resource type="Script" path="res://scripts/line/center_line.gd" id="2_jxyg4"]
 [ext_resource type="Texture2D" uid="uid://byfta41xg2cef" path="res://assets/build_icon.png" id="4_gcjo5"]
 [ext_resource type="Script" path="res://scripts/buildings/building_area.gd" id="4_nwqr5"]
 [ext_resource type="Script" path="res://scripts/camera/camera_2d.gd" id="5_cgrrv"]
+[ext_resource type="Script" path="res://scenes/label.gd" id="7_lj443"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_24vkg"]
 texture = ExtResource("1_cu5vd")
@@ -2411,6 +2413,9 @@ sources/0 = SubResource("TileSetAtlasSource_1hujs")
 
 [node name="Root" type="Node"]
 
+[node name="MiningArea" parent="." instance=ExtResource("1_xqmdb")]
+position = Vector2(1229, 1336)
+
 [node name="CenterLine" type="Node" parent="."]
 script = ExtResource("2_jxyg4")
 
@@ -2512,6 +2517,19 @@ script = ExtResource("5_cgrrv")
 [node name="LeftLine" type="Node" parent="."]
 
 [node name="RightLine" type="Node" parent="."]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 1335.0
+offset_top = 703.0
+offset_right = 1568.0
+offset_bottom = 818.0
+script = ExtResource("7_lj443")
+
+[node name="MiningArea2" parent="." instance=ExtResource("1_xqmdb")]
+position = Vector2(1388, 1334)
+
+[node name="MiningArea3" parent="." instance=ExtResource("1_xqmdb")]
+position = Vector2(1545, 1332)
 
 [connection signal="pressed" from="CenterLine/SpawnPoint/Spawn" to="CenterLine" method="_on_spawn_pressed"]
 [connection signal="pressed" from="CenterLine/BuildingArea/Button" to="CenterLine/BuildingArea" method="_on_button_pressed"]
