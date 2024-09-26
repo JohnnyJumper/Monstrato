@@ -1,7 +1,147 @@
-[gd_scene load_steps=7 format=3 uid="uid://cr0lc35e5xxe5"]
+[gd_scene load_steps=150 format=3 uid="uid://cr0lc35e5xxe5"]
 
 [ext_resource type="Script" path="res://scripts/buildings/mining_area.gd" id="1_pt7hh"]
 [ext_resource type="Texture2D" uid="uid://byfta41xg2cef" path="res://assets/build_icon.png" id="2_e5q30"]
+[ext_resource type="Texture2D" uid="uid://cxmpbqdgxssgw" path="res://assets/Buildings/GoldMine/animation/gold_mine0001.png" id="3_ln6yn"]
+[ext_resource type="Texture2D" uid="uid://2n0p46fvpi2k" path="res://assets/Buildings/GoldMine/animation/gold_mine0002.png" id="4_yvi8o"]
+[ext_resource type="Texture2D" uid="uid://h0toe1jl5ykq" path="res://assets/Buildings/GoldMine/animation/gold_mine0003.png" id="5_stk1h"]
+[ext_resource type="Texture2D" uid="uid://bcs6gfk0i8eox" path="res://assets/Buildings/GoldMine/animation/gold_mine0004.png" id="6_b8n7a"]
+[ext_resource type="Texture2D" uid="uid://n62gwgm2vom2" path="res://assets/Buildings/GoldMine/animation/gold_mine0005.png" id="7_r16xv"]
+[ext_resource type="Texture2D" uid="uid://dqxl57y4fj1qp" path="res://assets/Buildings/GoldMine/animation/gold_mine0006.png" id="8_xyq4a"]
+[ext_resource type="Texture2D" uid="uid://h7vdmpy3n0tt" path="res://assets/Buildings/GoldMine/animation/gold_mine0007.png" id="9_8i3w7"]
+[ext_resource type="Texture2D" uid="uid://cutt0ln2v0omf" path="res://assets/Buildings/GoldMine/animation/gold_mine0008.png" id="10_32iy8"]
+[ext_resource type="Texture2D" uid="uid://bgtsujgt4djel" path="res://assets/Buildings/GoldMine/animation/gold_mine0009.png" id="11_1ugfo"]
+[ext_resource type="Texture2D" uid="uid://be5fcnpwh7dxa" path="res://assets/Buildings/GoldMine/animation/gold_mine0010.png" id="12_a0o3l"]
+[ext_resource type="Texture2D" uid="uid://cd8ftotchweh4" path="res://assets/Buildings/GoldMine/animation/gold_mine0011.png" id="13_7fp5g"]
+[ext_resource type="Texture2D" uid="uid://bipa25yiuiaey" path="res://assets/Buildings/GoldMine/animation/gold_mine0012.png" id="14_7pwx2"]
+[ext_resource type="Texture2D" uid="uid://snlfy2tgrsqe" path="res://assets/Buildings/GoldMine/animation/gold_mine0013.png" id="15_alk1f"]
+[ext_resource type="Texture2D" uid="uid://b16vi52kfq8rf" path="res://assets/Buildings/GoldMine/animation/gold_mine0014.png" id="16_pg434"]
+[ext_resource type="Texture2D" uid="uid://dddn0v2rsno51" path="res://assets/Buildings/GoldMine/animation/gold_mine0015.png" id="17_2yy03"]
+[ext_resource type="Texture2D" uid="uid://coah4o3v5xx45" path="res://assets/Buildings/GoldMine/animation/gold_mine0016.png" id="18_sfno2"]
+[ext_resource type="Texture2D" uid="uid://odvjymsaejkf" path="res://assets/Buildings/GoldMine/animation/gold_mine0017.png" id="19_i61lx"]
+[ext_resource type="Texture2D" uid="uid://cipk3ih5ug6po" path="res://assets/Buildings/GoldMine/animation/gold_mine0018.png" id="20_kpj87"]
+[ext_resource type="Texture2D" uid="uid://b2tvmju2phh68" path="res://assets/Buildings/GoldMine/animation/gold_mine0019.png" id="21_rxnab"]
+[ext_resource type="Texture2D" uid="uid://uo6w1yk201au" path="res://assets/Buildings/GoldMine/animation/gold_mine0020.png" id="22_2xa25"]
+[ext_resource type="Texture2D" uid="uid://ceh3ndt0n07ir" path="res://assets/Buildings/GoldMine/animation/gold_mine0021.png" id="23_a5xug"]
+[ext_resource type="Texture2D" uid="uid://k3xw5nbkej34" path="res://assets/Buildings/GoldMine/animation/gold_mine0022.png" id="24_5p8om"]
+[ext_resource type="Texture2D" uid="uid://b8i4fl18ln3v8" path="res://assets/Buildings/GoldMine/animation/gold_mine0023.png" id="25_ctp3i"]
+[ext_resource type="Texture2D" uid="uid://cebpfq1we8hxy" path="res://assets/Buildings/GoldMine/animation/gold_mine0024.png" id="26_ydgxy"]
+[ext_resource type="Texture2D" uid="uid://c8wtvntsbb53r" path="res://assets/Buildings/GoldMine/animation/gold_mine0025.png" id="27_xstnv"]
+[ext_resource type="Texture2D" uid="uid://2ggyyt3ulpgf" path="res://assets/Buildings/GoldMine/animation/gold_mine0026.png" id="28_8noho"]
+[ext_resource type="Texture2D" uid="uid://c168wu55h7wsw" path="res://assets/Buildings/GoldMine/animation/gold_mine0027.png" id="29_loe4h"]
+[ext_resource type="Texture2D" uid="uid://jmbng61ghrnq" path="res://assets/Buildings/GoldMine/animation/gold_mine0028.png" id="30_imo4s"]
+[ext_resource type="Texture2D" uid="uid://t544alshqab3" path="res://assets/Buildings/GoldMine/animation/gold_mine0029.png" id="31_uu22t"]
+[ext_resource type="Texture2D" uid="uid://cqppioirkurpw" path="res://assets/Buildings/GoldMine/animation/gold_mine0030.png" id="32_tkrvj"]
+[ext_resource type="Texture2D" uid="uid://bxaks8lp0okd4" path="res://assets/Buildings/GoldMine/animation/gold_mine0031.png" id="33_vv6rx"]
+[ext_resource type="Texture2D" uid="uid://doj1a44kc3r1e" path="res://assets/Buildings/GoldMine/animation/gold_mine0032.png" id="34_cwgvd"]
+[ext_resource type="Texture2D" uid="uid://pjjb0aetvo1f" path="res://assets/Buildings/GoldMine/animation/gold_mine0033.png" id="35_anjyy"]
+[ext_resource type="Texture2D" uid="uid://dohu3n06kveyo" path="res://assets/Buildings/GoldMine/animation/gold_mine0034.png" id="36_uefd0"]
+[ext_resource type="Texture2D" uid="uid://yaljik48msy0" path="res://assets/Buildings/GoldMine/animation/gold_mine0035.png" id="37_uqxgh"]
+[ext_resource type="Texture2D" uid="uid://d2x16cokmhhnt" path="res://assets/Buildings/GoldMine/animation/gold_mine0036.png" id="38_s3psh"]
+[ext_resource type="Texture2D" uid="uid://bcl2d8o4kkkqc" path="res://assets/Buildings/GoldMine/animation/gold_mine0037.png" id="39_55bv3"]
+[ext_resource type="Texture2D" uid="uid://uw8bud0kgiy8" path="res://assets/Buildings/GoldMine/animation/gold_mine0038.png" id="40_atrv2"]
+[ext_resource type="Texture2D" uid="uid://dbudgyskx1brr" path="res://assets/Buildings/GoldMine/animation/gold_mine0039.png" id="41_oolg8"]
+[ext_resource type="Texture2D" uid="uid://cuppoc8kpkavb" path="res://assets/Buildings/GoldMine/animation/gold_mine0040.png" id="42_gkp07"]
+[ext_resource type="Texture2D" uid="uid://bkuwxee70gfrh" path="res://assets/Buildings/GoldMine/animation/gold_mine0041.png" id="43_7ljnw"]
+[ext_resource type="Texture2D" uid="uid://cnqb2rolel7bf" path="res://assets/Buildings/GoldMine/animation/gold_mine0042.png" id="44_rac47"]
+[ext_resource type="Texture2D" uid="uid://berhckv7wurwf" path="res://assets/Buildings/GoldMine/animation/gold_mine0043.png" id="45_s04hh"]
+[ext_resource type="Texture2D" uid="uid://bet0em5lhw0e6" path="res://assets/Buildings/GoldMine/animation/gold_mine0044.png" id="46_0xgqg"]
+[ext_resource type="Texture2D" uid="uid://jmc45h1glrvx" path="res://assets/Buildings/GoldMine/animation/gold_mine0045.png" id="47_11sah"]
+[ext_resource type="Texture2D" uid="uid://dpyamu2mfjd63" path="res://assets/Buildings/GoldMine/animation/gold_mine0046.png" id="48_ecu1c"]
+[ext_resource type="Texture2D" uid="uid://lad1my1fcyh1" path="res://assets/Buildings/GoldMine/animation/gold_mine0047.png" id="49_671by"]
+[ext_resource type="Texture2D" uid="uid://d25do4bd74g7h" path="res://assets/Buildings/GoldMine/animation/gold_mine0048.png" id="50_mpdlt"]
+[ext_resource type="Texture2D" uid="uid://c514up81l0grn" path="res://assets/Buildings/GoldMine/animation/gold_mine0049.png" id="51_n17do"]
+[ext_resource type="Texture2D" uid="uid://onl6njw7j2g6" path="res://assets/Buildings/GoldMine/animation/gold_mine0050.png" id="52_np153"]
+[ext_resource type="Texture2D" uid="uid://d05wa1ad54sr8" path="res://assets/Buildings/GoldMine/animation/gold_mine0051.png" id="53_wuxnr"]
+[ext_resource type="Texture2D" uid="uid://6p6t1v4gwah4" path="res://assets/Buildings/GoldMine/animation/gold_mine0052.png" id="54_e8xgq"]
+[ext_resource type="Texture2D" uid="uid://b2jkqxcyikwr6" path="res://assets/Buildings/GoldMine/animation/gold_mine0053.png" id="55_wj1id"]
+[ext_resource type="Texture2D" uid="uid://bvmpyrwwpnc8t" path="res://assets/Buildings/GoldMine/animation/gold_mine0054.png" id="56_ynysl"]
+[ext_resource type="Texture2D" uid="uid://c77475dl3otj1" path="res://assets/Buildings/GoldMine/animation/gold_mine0055.png" id="57_da1qj"]
+[ext_resource type="Texture2D" uid="uid://b2kxxbtbkx38y" path="res://assets/Buildings/GoldMine/animation/gold_mine0056.png" id="58_xsm8k"]
+[ext_resource type="Texture2D" uid="uid://j1owxouswqyw" path="res://assets/Buildings/GoldMine/animation/gold_mine0057.png" id="59_btixk"]
+[ext_resource type="Texture2D" uid="uid://cgdj04lmsbvju" path="res://assets/Buildings/GoldMine/animation/gold_mine0058.png" id="60_a6yif"]
+[ext_resource type="Texture2D" uid="uid://vgv2clkh6nco" path="res://assets/Buildings/GoldMine/animation/gold_mine0059.png" id="61_aq6ja"]
+[ext_resource type="Texture2D" uid="uid://qodlfrlt61kb" path="res://assets/Buildings/GoldMine/animation/gold_mine0060.png" id="62_paxla"]
+[ext_resource type="Texture2D" uid="uid://cmfrth0pnore3" path="res://assets/Buildings/GoldMine/animation/gold_mine0061.png" id="63_sxvyx"]
+[ext_resource type="Texture2D" uid="uid://dsf4fda3nr60u" path="res://assets/Buildings/GoldMine/animation/gold_mine0062.png" id="64_n15ay"]
+[ext_resource type="Texture2D" uid="uid://c2eyoyhajxr4s" path="res://assets/Buildings/GoldMine/animation/gold_mine0063.png" id="65_oc1bk"]
+[ext_resource type="Texture2D" uid="uid://cj48t2pveyh0n" path="res://assets/Buildings/GoldMine/animation/gold_mine0064.png" id="66_5fqm4"]
+[ext_resource type="Texture2D" uid="uid://cwp4sa1lbj1v7" path="res://assets/Buildings/GoldMine/animation/gold_mine0065.png" id="67_tkxvu"]
+[ext_resource type="Texture2D" uid="uid://ckcac3uj2yssn" path="res://assets/Buildings/GoldMine/animation/gold_mine0066.png" id="68_mbmqj"]
+[ext_resource type="Texture2D" uid="uid://bte38vveeihil" path="res://assets/Buildings/GoldMine/animation/gold_mine0067.png" id="69_umywv"]
+[ext_resource type="Texture2D" uid="uid://bgaag2gcp24dd" path="res://assets/Buildings/GoldMine/animation/gold_mine0068.png" id="70_ekfy0"]
+[ext_resource type="Texture2D" uid="uid://db5xvkvm7d3xs" path="res://assets/Buildings/GoldMine/animation/gold_mine0069.png" id="71_otqdt"]
+[ext_resource type="Texture2D" uid="uid://cs3elx6nwigf2" path="res://assets/Buildings/GoldMine/animation/gold_mine0070.png" id="72_pv2oi"]
+[ext_resource type="Texture2D" uid="uid://bwyx3h5bv2jv2" path="res://assets/Buildings/GoldMine/animation/gold_mine0071.png" id="73_h1uli"]
+[ext_resource type="Texture2D" uid="uid://curfrk5j1gdux" path="res://assets/Buildings/GoldMine/animation/gold_mine0072.png" id="74_s1noc"]
+[ext_resource type="Texture2D" uid="uid://cb3e1bpqra75x" path="res://assets/Buildings/GoldMine/animation/gold_mine0073.png" id="75_nnbql"]
+[ext_resource type="Texture2D" uid="uid://yykjcpkkh2d7" path="res://assets/Buildings/GoldMine/animation/gold_mine0074.png" id="76_xivdw"]
+[ext_resource type="Texture2D" uid="uid://4mh3p8eawe63" path="res://assets/Buildings/GoldMine/animation/gold_mine0075.png" id="77_q2mjv"]
+[ext_resource type="Texture2D" uid="uid://dem43kvvi3k2l" path="res://assets/Buildings/GoldMine/animation/gold_mine0076.png" id="78_u8jdd"]
+[ext_resource type="Texture2D" uid="uid://b2ootytc8pqd6" path="res://assets/Buildings/GoldMine/animation/gold_mine0077.png" id="79_0mn5e"]
+[ext_resource type="Texture2D" uid="uid://df1aqlirx5pa0" path="res://assets/Buildings/GoldMine/animation/gold_mine0078.png" id="80_gt07v"]
+[ext_resource type="Texture2D" uid="uid://ceado1an1obvn" path="res://assets/Buildings/GoldMine/animation/gold_mine0079.png" id="81_32dcy"]
+[ext_resource type="Texture2D" uid="uid://bgr53bnbraqc7" path="res://assets/Buildings/GoldMine/animation/gold_mine0080.png" id="82_1fs07"]
+[ext_resource type="Texture2D" uid="uid://ntw74nxj0tpg" path="res://assets/Buildings/GoldMine/animation/gold_mine0081.png" id="83_2iea4"]
+[ext_resource type="Texture2D" uid="uid://raa7vxsxkurk" path="res://assets/Buildings/GoldMine/animation/gold_mine0082.png" id="84_2he58"]
+[ext_resource type="Texture2D" uid="uid://baa0i4tkg3erv" path="res://assets/Buildings/GoldMine/animation/gold_mine0083.png" id="85_2ixxq"]
+[ext_resource type="Texture2D" uid="uid://cxdt7r1rhv3ic" path="res://assets/Buildings/GoldMine/animation/gold_mine0084.png" id="86_lj15l"]
+[ext_resource type="Texture2D" uid="uid://cgnbsw3mq2i82" path="res://assets/Buildings/GoldMine/animation/gold_mine0085.png" id="87_sy4k1"]
+[ext_resource type="Texture2D" uid="uid://b0qxfwanu57m6" path="res://assets/Buildings/GoldMine/animation/gold_mine0086.png" id="88_eobpg"]
+[ext_resource type="Texture2D" uid="uid://bh48hrtpi4g6k" path="res://assets/Buildings/GoldMine/animation/gold_mine0087.png" id="89_vhdol"]
+[ext_resource type="Texture2D" uid="uid://dep3k4c13cuj1" path="res://assets/Buildings/GoldMine/animation/gold_mine0088.png" id="90_wx3k2"]
+[ext_resource type="Texture2D" uid="uid://bkshxax12aq6g" path="res://assets/Buildings/GoldMine/animation/gold_mine0089.png" id="91_33gi8"]
+[ext_resource type="Texture2D" uid="uid://bh8f07hotc2in" path="res://assets/Buildings/GoldMine/animation/gold_mine0090.png" id="92_160bh"]
+[ext_resource type="Texture2D" uid="uid://j3ysfheuoslg" path="res://assets/Buildings/GoldMine/animation/gold_mine0091.png" id="93_5trw6"]
+[ext_resource type="Texture2D" uid="uid://cvj4qwxjihniw" path="res://assets/Buildings/GoldMine/animation/gold_mine0092.png" id="94_ksrdi"]
+[ext_resource type="Texture2D" uid="uid://d1mfxx6dfqlq5" path="res://assets/Buildings/GoldMine/animation/gold_mine0093.png" id="95_1ftha"]
+[ext_resource type="Texture2D" uid="uid://djghysgw13y6s" path="res://assets/Buildings/GoldMine/animation/gold_mine0094.png" id="96_samq7"]
+[ext_resource type="Texture2D" uid="uid://d0eciyx6almnv" path="res://assets/Buildings/GoldMine/animation/gold_mine0095.png" id="97_gfnpy"]
+[ext_resource type="Texture2D" uid="uid://bxogi4fonvnko" path="res://assets/Buildings/GoldMine/animation/gold_mine0096.png" id="98_xebnw"]
+[ext_resource type="Texture2D" uid="uid://bmfvdaisy25ei" path="res://assets/Buildings/GoldMine/animation/gold_mine0097.png" id="99_geg07"]
+[ext_resource type="Texture2D" uid="uid://bbe1q8r1o5b4v" path="res://assets/Buildings/GoldMine/animation/gold_mine0098.png" id="100_rpxhy"]
+[ext_resource type="Texture2D" uid="uid://dlhtjxhld3xl7" path="res://assets/Buildings/GoldMine/animation/gold_mine0099.png" id="101_1k6l4"]
+[ext_resource type="Texture2D" uid="uid://do64qenyguggn" path="res://assets/Buildings/GoldMine/animation/gold_mine0100.png" id="102_gfvx1"]
+[ext_resource type="Texture2D" uid="uid://b4dsgx5cn3ohj" path="res://assets/Buildings/GoldMine/animation/gold_mine0101.png" id="103_booro"]
+[ext_resource type="Texture2D" uid="uid://bvdfldkmc1i72" path="res://assets/Buildings/GoldMine/animation/gold_mine0102.png" id="104_2du12"]
+[ext_resource type="Texture2D" uid="uid://d0d782ae5ofp5" path="res://assets/Buildings/GoldMine/animation/gold_mine0103.png" id="105_4lm6r"]
+[ext_resource type="Texture2D" uid="uid://dnr8d3wq30k4b" path="res://assets/Buildings/GoldMine/animation/gold_mine0104.png" id="106_u4g5x"]
+[ext_resource type="Texture2D" uid="uid://dpwo3daoyxir" path="res://assets/Buildings/GoldMine/animation/gold_mine0105.png" id="107_mvhkp"]
+[ext_resource type="Texture2D" uid="uid://dwux64tg81ux1" path="res://assets/Buildings/GoldMine/animation/gold_mine0106.png" id="108_hmcp3"]
+[ext_resource type="Texture2D" uid="uid://c0sjg5cspf4oo" path="res://assets/Buildings/GoldMine/animation/gold_mine0107.png" id="109_xpl1n"]
+[ext_resource type="Texture2D" uid="uid://drq4l75hignvg" path="res://assets/Buildings/GoldMine/animation/gold_mine0108.png" id="110_h65b2"]
+[ext_resource type="Texture2D" uid="uid://dxebnlmp0n7c5" path="res://assets/Buildings/GoldMine/animation/gold_mine0109.png" id="111_0imex"]
+[ext_resource type="Texture2D" uid="uid://cwe7c6egc8s4m" path="res://assets/Buildings/GoldMine/animation/gold_mine0110.png" id="112_a0gid"]
+[ext_resource type="Texture2D" uid="uid://cfucqodhr36sq" path="res://assets/Buildings/GoldMine/animation/gold_mine0111.png" id="113_8ri0o"]
+[ext_resource type="Texture2D" uid="uid://bev2lqxa7ekib" path="res://assets/Buildings/GoldMine/animation/gold_mine0112.png" id="114_yd8wf"]
+[ext_resource type="Texture2D" uid="uid://cyp1slo3k0ytc" path="res://assets/Buildings/GoldMine/animation/gold_mine0113.png" id="115_kmc3f"]
+[ext_resource type="Texture2D" uid="uid://cep6ksp6hiar1" path="res://assets/Buildings/GoldMine/animation/gold_mine0114.png" id="116_mrq6l"]
+[ext_resource type="Texture2D" uid="uid://dcds7vvivy000" path="res://assets/Buildings/GoldMine/animation/gold_mine0115.png" id="117_ctkxm"]
+[ext_resource type="Texture2D" uid="uid://d3hi8mkj411l0" path="res://assets/Buildings/GoldMine/animation/gold_mine0116.png" id="118_67jbj"]
+[ext_resource type="Texture2D" uid="uid://lbwfwanaldxu" path="res://assets/Buildings/GoldMine/animation/gold_mine0117.png" id="119_l4xlq"]
+[ext_resource type="Texture2D" uid="uid://mjdsngajgrew" path="res://assets/Buildings/GoldMine/animation/gold_mine0118.png" id="120_a2xqq"]
+[ext_resource type="Texture2D" uid="uid://bcc3f124s6f00" path="res://assets/Buildings/GoldMine/animation/gold_mine0119.png" id="121_vtv1t"]
+[ext_resource type="Texture2D" uid="uid://dxtpse4kcvy4o" path="res://assets/Buildings/GoldMine/animation/gold_mine0120.png" id="122_lq2ca"]
+[ext_resource type="Texture2D" uid="uid://b4tpcxklqplnh" path="res://assets/Buildings/GoldMine/animation/gold_mine0121.png" id="123_f6uvy"]
+[ext_resource type="Texture2D" uid="uid://d0be364s64avg" path="res://assets/Buildings/GoldMine/animation/gold_mine0122.png" id="124_lxt71"]
+[ext_resource type="Texture2D" uid="uid://u4igxa0bfxyq" path="res://assets/Buildings/GoldMine/animation/gold_mine0123.png" id="125_os4fk"]
+[ext_resource type="Texture2D" uid="uid://dru1p3w7do8u6" path="res://assets/Buildings/GoldMine/animation/gold_mine0124.png" id="126_5qwve"]
+[ext_resource type="Texture2D" uid="uid://x358be66pok2" path="res://assets/Buildings/GoldMine/animation/gold_mine0125.png" id="127_3cc0o"]
+[ext_resource type="Texture2D" uid="uid://cnyqw6slb54wc" path="res://assets/Buildings/GoldMine/animation/gold_mine0126.png" id="128_ig5cf"]
+[ext_resource type="Texture2D" uid="uid://dovqgsv7b6uxt" path="res://assets/Buildings/GoldMine/animation/gold_mine0127.png" id="129_afapm"]
+[ext_resource type="Texture2D" uid="uid://cd43t2drwob5b" path="res://assets/Buildings/GoldMine/animation/gold_mine0128.png" id="130_daavi"]
+[ext_resource type="Texture2D" uid="uid://r7qgjdtfhdix" path="res://assets/Buildings/GoldMine/animation/gold_mine0129.png" id="131_ixv4h"]
+[ext_resource type="Texture2D" uid="uid://d1vxbbkelkwr1" path="res://assets/Buildings/GoldMine/animation/gold_mine0130.png" id="132_4hlgr"]
+[ext_resource type="Texture2D" uid="uid://dlqentj8u8dfb" path="res://assets/Buildings/GoldMine/animation/gold_mine0131.png" id="133_o3hmo"]
+[ext_resource type="Texture2D" uid="uid://cutpip76lvtks" path="res://assets/Buildings/GoldMine/animation/gold_mine0132.png" id="134_jtx8q"]
+[ext_resource type="Texture2D" uid="uid://dr33m1q3acvl1" path="res://assets/Buildings/GoldMine/animation/gold_mine0133.png" id="135_ysbc7"]
+[ext_resource type="Texture2D" uid="uid://coi2lbxkajt7m" path="res://assets/Buildings/GoldMine/animation/gold_mine0134.png" id="136_mos81"]
+[ext_resource type="Texture2D" uid="uid://dxj3v6tuph2p2" path="res://assets/Buildings/GoldMine/animation/gold_mine0135.png" id="137_fucld"]
+[ext_resource type="Texture2D" uid="uid://m0i13uwlfdwa" path="res://assets/Buildings/GoldMine/animation/gold_mine0136.png" id="138_v8v67"]
+[ext_resource type="Texture2D" uid="uid://cv7pcpnuw3dva" path="res://assets/Buildings/GoldMine/animation/gold_mine0137.png" id="139_4mee2"]
+[ext_resource type="Texture2D" uid="uid://0u6a5k2ojbc5" path="res://assets/Buildings/GoldMine/animation/gold_mine0138.png" id="140_ev226"]
+[ext_resource type="Texture2D" uid="uid://ynwa5j2iqqkr" path="res://assets/Buildings/GoldMine/animation/gold_mine0139.png" id="141_xyycl"]
+[ext_resource type="Texture2D" uid="uid://behpusv7lava8" path="res://assets/Buildings/GoldMine/animation/gold_mine0140.png" id="142_lpmol"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dmn3x"]
 bg_color = Color(0.772549, 0.556863, 0.172549, 0.423529)
@@ -26,6 +166,455 @@ bg_color = Color(0.6, 0.6, 0.6, 0)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5jshg"]
 bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2kedm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_ln6yn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_yvi8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_stk1h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_b8n7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_r16xv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_xyq4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_8i3w7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_32iy8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_1ugfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_a0o3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_7fp5g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_7pwx2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_alk1f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_pg434")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_2yy03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_sfno2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_i61lx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_kpj87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_rxnab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_2xa25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_a5xug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_5p8om")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ctp3i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ydgxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_xstnv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_8noho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_loe4h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_imo4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_uu22t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_tkrvj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_vv6rx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_cwgvd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_anjyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_uefd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_uqxgh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_s3psh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_55bv3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_atrv2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_oolg8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_gkp07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_7ljnw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_rac47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_s04hh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_0xgqg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_11sah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_ecu1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_671by")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_mpdlt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_n17do")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_np153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_wuxnr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_e8xgq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_wj1id")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_ynysl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_da1qj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_xsm8k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_btixk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_a6yif")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_aq6ja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_paxla")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_sxvyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_n15ay")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_oc1bk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_5fqm4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_tkxvu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_mbmqj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_umywv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_ekfy0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_otqdt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_pv2oi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_h1uli")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_s1noc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_nnbql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_xivdw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_q2mjv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_u8jdd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_0mn5e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_gt07v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_32dcy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_1fs07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_2iea4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_2he58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_2ixxq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_lj15l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_sy4k1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_eobpg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_vhdol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_wx3k2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_33gi8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_160bh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_5trw6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_ksrdi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_1ftha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_samq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_gfnpy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_xebnw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_geg07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_rpxhy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_1k6l4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_gfvx1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_booro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_2du12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_4lm6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_u4g5x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_mvhkp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_hmcp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_xpl1n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_h65b2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_0imex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_a0gid")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_8ri0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_yd8wf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_kmc3f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_mrq6l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_ctkxm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_67jbj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_l4xlq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_a2xqq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_vtv1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_lq2ca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_f6uvy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_lxt71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_os4fk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_5qwve")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_3cc0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_ig5cf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_afapm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_daavi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_ixv4h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_4hlgr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_o3hmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_jtx8q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_ysbc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_mos81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_fucld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_v8v67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_4mee2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_ev226")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_xyycl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_lpmol")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_loeko"]
+bg_color = Color(0.147672, 0.147672, 0.147672, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_blend = true
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e2l6q"]
+bg_color = Color(0.119083, 0.692688, 0.611381, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_bottom = 2
+border_blend = true
+corner_radius_top_left = 6
+corner_radius_bottom_left = 6
 
 [node name="MiningArea" type="Node2D"]
 script = ExtResource("1_pt7hh")
@@ -67,4 +656,29 @@ grow_vertical = 2
 texture = ExtResource("2_e5q30")
 expand_mode = 1
 
-[connection signal="toggled" from="buildingButton/Button" to="." method="_on_button_toggled"]
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+visible = false
+scale = Vector2(0.18, 0.18)
+sprite_frames = SubResource("SpriteFrames_2kedm")
+autoplay = "default"
+frame_progress = 0.660461
+
+[node name="AnimationTimer" type="Timer" parent="Sprite"]
+wait_time = 5.833
+
+[node name="buildTimeBar" type="ProgressBar" parent="."]
+offset_left = -55.0
+offset_top = 45.0
+offset_right = 60.0
+offset_bottom = 72.0
+theme_override_styles/background = SubResource("StyleBoxFlat_loeko")
+theme_override_styles/fill = SubResource("StyleBoxFlat_e2l6q")
+value = 50.0
+
+[node name="BuildingTimer" type="Timer" parent="buildTimeBar"]
+wait_time = 3.0
+one_shot = true
+
+[connection signal="pressed" from="buildingButton/Button" to="." method="_on_button_pressed"]
+[connection signal="timeout" from="Sprite/AnimationTimer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="buildTimeBar/BuildingTimer" to="." method="_on_building_timer_timeout"]
